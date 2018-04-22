@@ -1,0 +1,37 @@
+body{
+  background: linear-gradient(#c5cedd, #d0d9e8,#e0eaf9 );
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.jumbotron{
+  margin-top: 1em;
+  background-image: url(images/bg.jpg);
+  min-height: 40vh;
+  background-position: center;
+  background-size: cover;
+  color:#d6b548;
+  opacity: 0.87;
+}
+
+#currentWeatherText{
+  font-size: 12px;
+}
+
+@media (min-width: 768px){
+  #currentWeatherText{
+    font-size: 21px;
+  }
+}
+@media(max-width:767.98px){
+  .form-row{
+    display:block;
+    margin-bottom: 1em;
+  }
+  .jumbotron h1{
+    font-size: 25px;
+  }
+  .jumbotron p{
+    font-size: 16px;
+  }
+}
